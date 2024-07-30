@@ -11,6 +11,18 @@ from django.contrib.staticfiles.handlers import StaticFilesHandler
 application = StaticFilesHandler(get_wsgi_application())
 
 
+"""
+in path sometimes we use django-admin startproject [project-name] .
+
+''' do not use the . (current directory) 
+    in wsgi it is auto configure
+    although I have tried to nested the project-name
+    it did not break
+''' 
+
+"""
+
+
 
 
 # ########## default
