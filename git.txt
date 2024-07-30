@@ -13,7 +13,7 @@ git config --global user.email "nayeemx11@gmail.com"
 git clone https://github.com/nayeemx11/django_projects.git
 
 git add -A
-git commit -m "dj4e_html-10 commit"
+git commit -m "dj4e_html-11 commit"
 git branch -M main
 git remote add origin https://github.com/nayeemx11/django_projects.git
 git push -u origin main
