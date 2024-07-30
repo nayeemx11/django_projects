@@ -129,8 +129,8 @@ USE_TZ = True
 
 STATIC_URL = 'site/'
 
-# STATIC_ROOT = BASE_DIR / 'site'
-STATIC_ROOT = os.path.join(BASE_DIR, 'site'),
+STATIC_ROOT = BASE_DIR / 'site'
+# STATIC_ROOT = os.path.join(BASE_DIR, 'site'),
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
